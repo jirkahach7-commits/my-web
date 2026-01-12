@@ -5,18 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sophie | Portfolio</title>
   <style>
-    /* 1. CELKOVÉ BARVY A STYL */
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fffafa; /* Jemně růžový nádech pozadí */
+      background: #fffafa;
       color: #333;
     }
 
-    /* 2. HLAVIČKA (HEADER) */
     header {
-      background: #000; /* Černé pozadí pro eleganci */
+      background: #000;
       color: #fff;
       padding: 60px 20px;
       text-align: center;
@@ -35,7 +33,6 @@
       opacity: 0.8;
     }
 
-    /* 3. SEKCE A ROZLOŽENÍ */
     section {
       padding: 50px 20px;
       max-width: 900px;
@@ -43,13 +40,12 @@
     }
 
     h2 {
-      border-bottom: 2px solid #ff4d94; /* Růžová čára pod nadpisy */
+      border-bottom: 2px solid #ff4d94;
       display: inline-block;
       padding-bottom: 5px;
       margin-bottom: 20px;
     }
 
-    /* 4. GALERIE OBRÁZKŮ */
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -59,37 +55,37 @@
 
     .gallery img {
       width: 100%;
-      height: 350px;
-      object-fit: cover; /* Obrázek se nedeformuje */
+      height: 450px;
+      object-fit: cover;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
+      background-color: #eee;
     }
 
     .gallery img:hover {
-      transform: scale(1.03); /* Jemné zvětšení při najetí myší */
+      transform: scale(1.03);
     }
 
-    /* 5. TLAČÍTKO PAYPAL */
     .buy-button {
       display: inline-block;
       padding: 15px 30px;
       font-size: 18px;
       font-weight: bold;
       cursor: pointer;
-      background-color: #ff4d94; /* Výrazná růžová */
-      color: white;
+      background-color: #ff4d94;
+      color: white !important;
       text-decoration: none;
-      border-radius: 50px; /* Kulaté tlačítko */
+      border-radius: 50px;
       transition: background 0.3s;
       box-shadow: 0 4px 15px rgba(255, 77, 148, 0.3);
+      border: none;
     }
 
     .buy-button:hover {
       background-color: #e60073;
     }
 
-    /* 6. PATIČKA */
     footer {
       background: #f0f0f0;
       text-align: center;
@@ -116,12 +112,12 @@
   <p>I like sport, gym and swimming. Welcome to my world.</p>
 </section>
 
- <section>
+<section>
   <h2>Gallery</h2>
   <div class="gallery">
-  <img src="./foto1.jpg" alt="Sophie red hearts">
-  <img src="./foto2.jpg" alt="Sophie mirror selfie">
-  <img src="./foto3.jpg" alt="Sophie bed pose">
+    <img src="./foto1.jpg" alt="Sophie red hearts">
+    <img src="./foto2.jpg" alt="Sophie mirror selfie">
+    <img src="./foto3.jpg" alt="Sophie bed pose">
   </div>
 </section>
 
@@ -143,10 +139,3 @@
 
 </body>
 </html>
-
- 
-
-
-
-
-
